@@ -1,0 +1,23 @@
+/**
+ * Chrome Extension Twitter Bootstrap 3 Template
+ * Custom CSS
+ *	
+ */
+
+body, section {			/* Change width and height to own preferences */
+	width: 210px;
+	height: 500px;
+	overflow-x: scroll;
+}
+
+/* Basic style tweaks */
+section { padding: 5px;}
+.navbar { margin: 2px; }
+.navbar li{ margin: 2px;width:170px; }
+.navbar li a{ text-align: left }
+
+
+/* Scroll Bar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); }
+::-webkit-scrollbar-thumb, ::-webkit-scrollbar-thumb:window-inactive  { background: red; }
