@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "TestTech",
+  "description": "TestTech Applications",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "logo.png",
+    "default_popup": "popup.html"
+  },
+  "background":{
+    "scripts": ["eventPage.js"],
+    "persistent": true
+  },
+
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/",
+    "contextMenus"
+  ]
+}
